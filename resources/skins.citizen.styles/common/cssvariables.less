@@ -57,7 +57,7 @@
 html {
 	/* Size */
 	--header-size: @header-size;
-	--header-card-maxheight: 70vh;
+	--header-card-maxheight: 80vh;
 	--width-layout: @width-layout;
 	--width-layout--extended: ~'calc( var( --width-layout ) * 1.5 )';
 	--width-toc: @width-toc;
@@ -88,12 +88,6 @@ html {
 :lang( zh ) {
 	/* CJK languages need increased line-height for readability */
 	--line-height: 1.75;
-}
-
-a {
-	--color-link: ~'var( --color-progressive )';
-	--color-link--hover: ~'var( --color-progressive--hover )';
-	--color-link--active: ~'var( --color-progressive--active )';
 }
 
 .theme-dark-old() {

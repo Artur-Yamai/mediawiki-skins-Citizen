@@ -58,6 +58,7 @@ Name | Grade | Version | Last updated
 [DiscussionTools](https://www.mediawiki.org/wiki/Extension:DiscussionTools) | A | REL1_39 `1aae2cc` | 2023-06-19
 [DismissableSiteNotice](https://www.mediawiki.org/wiki/Extension:DismissableSiteNotice) | A | N/A | N/A
 [Echo](https://www.mediawiki.org/wiki/Extension:Echo) | A | REL1_35 `347c30e` | 2023-06-29
+[FloatingUI](https://www.mediawiki.org/wiki/Extension:FloatingUI) | A | 0.0.1 | 2024-09-04
 [Flow (StructuredDiscussions)](https://www.mediawiki.org/wiki/Extension:StructuredDiscussions) | B | REL1_35 `e3379f0` | 2022-04-27
 [FlaggedRevs](https://www.mediawiki.org/wiki/Extension:FlaggedRevs) | B | REL1_39 `130a28f` | 2023-08-03
 [Graph](https://www.mediawiki.org/wiki/Extension:Graph) | B | N/A | N/A
@@ -69,7 +70,7 @@ Name | Grade | Version | Last updated
 [MsUpload](https://www.mediawiki.org/wiki/Extension:MsUpload) | A | REL1_35 `32eb420` | 2021-08-25
 [MultimediaViewer](https://www.mediawiki.org/wiki/Extension:MultimediaViewer) | A | REL1_39 `1b97775` | 2022-11-26
 [OAuth](https://www.mediawiki.org/wiki/Extension:OAuth) | B | REL1_35 `451ed95` | 2021-08-31
-[Popups](https://www.mediawiki.org/wiki/Extension:Popups) | A | REL1_39 `a40ebc1` | 2022-11-28
+[Popups](https://www.mediawiki.org/wiki/Extension:Popups) | A | REL1_39 `a40ebc1` | 2024-10-05
 [PortableInfobox](https://www.mediawiki.org/wiki/Extension:PortableInfobox) | A | 0.6 `16a77dc` | 2024-04-17
 [RelatedArticles](https://www.mediawiki.org/wiki/Extension:RelatedArticles) | A | REL1_39 `f513e5c` | 2022-11-16
 [ReplaceText](https://www.mediawiki.org/wiki/Extension:ReplaceText) | B | REL1_39 `af4840a` | 2023-01-03
@@ -81,11 +82,12 @@ Name | Grade | Version | Last updated
 [Semantic Result Formats](https://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats) | E | N/A | N/A
 [SimpleTooltip](https://www.mediawiki.org/wiki/Extension:SimpleTooltip) | B | N/A | 2022-02-19
 [SmiteSpam](https://www.mediawiki.org/wiki/Extension:SmiteSpam) | B | REL1_39 `c81b04b` | 2023-05-30
+[StructuredNavigation](https://www.mediawiki.org/wiki/Extension:StructuredNavigation) | A | REL1_39 `55e2ec0` | 2024-09-06
 [SyntaxHighlight](https://www.mediawiki.org/wiki/Extension:SyntaxHighlight) | A | REL1_35 `05598b3` | 2023-05-22
 [Tabs](https://www.mediawiki.org/wiki/Extension:Tabs) | A | REL1_39 `63ccef2` | 2023-07-11
 [Tabber](https://www.mediawiki.org/wiki/Extension:Tabber) | A | N/A | N/A
-[TabberNeue](https://www.mediawiki.org/wiki/Extension:TabberNeue) | A | 2.1.1 | 2024-05-26
-[TemplateData](https://www.mediawiki.org/wiki/Extension:TemplateData) | A | REL1_39 `e2c12b5` | 2023-05-01
+[TabberNeue](https://www.mediawiki.org/wiki/Extension:TabberNeue) | A | 2.5.0 | 2024-08-31
+[TemplateData](https://www.mediawiki.org/wiki/Extension:TemplateData) | A | REL1_39 `7f8c5a8` | 2024-08-19
 [TimedMediaHandler](https://www.mediawiki.org/wiki/Extension:TimedMediaHandler) | B | N/A | N/A
 [Translate](https://www.mediawiki.org/wiki/Extension:Translate) | A | MLEB 2023.01 | 2023-02-17
 [TwoColConflict](https://www.mediawiki.org/wiki/Extension:TwoColConflict) | B | REL1_39 5a2a947 | 2023-01-09
@@ -150,3 +152,9 @@ Name | Description | Values | Default
 * [MediaWiki](https://www.mediawiki.org) 1.39.4 or later
 * For the legacy versions, check the other release branches.
 
+## Recommended extensions
+These extensions are optional. They are recommended to enable additional feature in Citizen.
+- [PageImages](https://www.mediawiki.org/wiki/Extension:PageImages) (bundled with MediaWiki) - Add image to search suggestion results
+- [TextExtracts](https://www.mediawiki.org/wiki/Extension:TextExtracts) (bundled with MediaWiki) - Add description to search suggestion results
+- [ShortDescription](https://www.mediawiki.org/wiki/Extension:ShortDescription) - Add short description to under page title and search suggestion results (needs to set `$wgCitizenSearchDescriptionSource` to `wikidata`)
+- [TemplateStylesExtender](https://www.mediawiki.org/wiki/Extension:TemplateStylesExtender) (if you use [TemplateStyles](https://www.mediawiki.org/wiki/Extension:TemplateStyles)) - Allow the use of CSS variables in TemplateStyles, including the ones provided by Citizen
